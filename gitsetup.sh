@@ -23,3 +23,9 @@ cp $dir/.gitignore .gitignore
 
 #git commit --allow-empty -m 'test'
 #git push origin master
+
+git init
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/manthan127/bash.git
+git push -u origin main
